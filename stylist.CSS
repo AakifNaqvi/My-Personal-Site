@@ -1,0 +1,182 @@
+body {
+  border: 0px;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.Top-Container {
+  background-color: #e4f9f5;
+  margin-bottom: 30px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  top: 450px;
+}
+
+hr {
+  color: #eaf6f6;
+  width: 4%;
+  border-style: dotted none none none;
+  border-width: 6px;
+  margin:  100px auto;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.255rem; /* 16px = 100% = 1em (em and % are dynamic) */
+  margin-top: 50px auto 0px auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  text-align: center;
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight:bold;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p{
+    color: #40514E;
+    font-size: 18px;
+    font-family:serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 2;
+}
+
+.middle-container {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.Profile {
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width: 200px;
+}
+
+.skills {
+  width: 50%;
+  margin: 100px auto 150px auto; /* This used to make center alignment whem alighnment fumction is not working  */
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row {
+  margin: 50px auto 50px auto;
+}
+
+.Cpp {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.SQL {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 40px auto 60px auto;
+}
+
+.BUTTON {
+    margin-top: 50px;
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON:hover {
+    border: solid #048E99 1px;
+    background: #038DA0;
+    background-image: -webkit-linear-gradient(top, #038DA0, #07A0A9);
+    background-image: -moz-linear-gradient(top, #038DA0, #07A0A9);
+    background-image: -ms-linear-gradient(top, #038DA0, #07A0A9);
+    background-image: -o-linear-gradient(top, #038DA0, #07A0A9);
+    background-image: -webkit-gradient(to bottom, #038DA0, #07A0A9);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+/* button:hover {
+  opacity: 2;
+}
+
+button {
+  background-color: #66bfbf;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  opacity: 0.6;
+  transition: 0.3s;
+} */
+
+.btn:hover{color:unset;}
+
+.btn {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  margin: 0;
+}
+
+a:hover{ color: teal;}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  margin-right: 50px;
+}
+
+.Bottom {
+  text-align: center;
+  background-color: #66bfbf;
+  padding: 50px;
+}
