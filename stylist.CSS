@@ -69,7 +69,7 @@ p{
 .Profile {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
-  border-top-right-radius: 50%;
+  border-top-right-radius: 10%;
   width: 200px;
 }
 
